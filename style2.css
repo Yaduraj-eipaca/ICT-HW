@@ -1,0 +1,25 @@
+body{
+	
+	background-image: url('https://i.pinimg.com/originals/0c/cd/8e/0ccd8ef1194f7ab384fb2da28cfcaaa7.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.second{
+	color:white;
+}
+
+h1{
+	color:green;
+}
+
+.first{
+	border: 3px outset white;
+	margin-right: 50%;
+	margin-bottom: 55%
+}
+
+h4{
+	color: blue;
+}

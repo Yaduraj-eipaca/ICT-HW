@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bob Running AI (watch it train)</title>
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Russo+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+	<script type="text/javascript" src="matter.js"></script>
+<style type="text/css">
+canvas{
+	border: 0.5px solid grey;
+}
+body, button{
+	font-family: 'PT Sans', sans-serif;
+}
+h1{
+	font-family: 'Russo One', sans-serif;
+}
+</style>
+</head>
+<body>
+	<h1>Bob the Running AI</h1>
+
+
+	Watch it train and improve from scratch! <a href="run.html">Or, run the trained version.</a><br>
+	Watch: <input type="checkbox" id="watch"> (note: when this is not selected, the video will be very choppy as to save computer processing power)<br>
+	<button onclick="exportWeights()">Export Weights</button>
+	<button onclick="start()">Start</button> <span id="generation"></span>
+
+
+	Creativity: <input type="range" min="0.001" max="1" value="0.5" step="0.01" id="creativity">
+
+
+	<br>
+	<canvas width="800" height="600" id="canvas"></canvas>
+	<canvas width="800" height="100" id="showSpeed"></canvas> <br>
+
+	
+	<button class="button-py" onclick="location.href='../index.html' ">Retrun Home</button>
+	<button class="button-py" onclick="location.href='../crazy button/button.html' ">100 dollar challenge</button>
+	<button class="button-py" onclick="location.href='../about.html' ">About My Hobbies</button>
+	<button class="button-primary" onclick="location.href='../walking ai/index.html' ">Watch A a.i. LEARN to Walk!!</button>
+	<button class="jj" onclick="location.href='../Phy/index.html' ">Cloth Simulation</button>
+	<button class="b" onclick="location.href='../Ref.html' ">refrence page</button>
+
+
+	<script type="text/javascript">var trainedWeights;</script>
+	<script type="text/javascript" src="graphics.js"></script>
+	<script type="text/javascript" src="ml.js"></script>
+</body>
+</html>
